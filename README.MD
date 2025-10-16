@@ -41,7 +41,7 @@ assuming it finds an entry, it will return json that kubectl expects:
 Using client certs instead? We got you:
 
 ```sh
-kube-creds-from-keyring -v "Some-client-certificate" -k "Some-client-key" -s "my-stuff"
+kube-creds-from-keyring -c "Some-client-certificate" -k "Some-client-key" -s "my-stuff"
 ```
 
 This will look in your keyring for 2 values:
